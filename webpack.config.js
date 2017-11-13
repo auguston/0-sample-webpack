@@ -2,11 +2,11 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: ['./src/main.js', './src/assets/style.sass'],
+  entry: ['./src/public.js', './src/assets/style.sass'],
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: 'build.min.js'
   },
   module: {
     rules: [
