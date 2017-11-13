@@ -27,10 +27,10 @@ const gulp = require('gulp'),
 			webServer = require('gulp-webserver');
 
 // 路徑
-const src_pug = './src/pug/*.pug',
+const src_pug = './src/assets/pug/*.pug',
 			end_pug = './',
-			src_sass = ['./src/assets/**/*.sass', './src/assets/**/*.scss'],
-			end_sass = './src/assets/';
+			src_sass = './src/assets/**/*.sass',
+			end_sass = './src/assets/css/';
 
 // webServer網址
 const serverSite = 'seansu.local';

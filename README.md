@@ -1,6 +1,6 @@
-# webpack-sample
+# demo2
 
-註：要用 Vue-cli 安裝 webpack。pug的部份要手動重新整理頁面。
+> A Vue.js project
 
 ## Build Setup
 
